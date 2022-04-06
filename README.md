@@ -1,10 +1,16 @@
 # GUI-Maze-Solver
 A simple maze solver using javafx as graphical user interface. Allows customised mazes.
 
-Execution script provided, just use
+Execution script provided.
+In Linux use
 ```
 $ ./javac.sh src/MazeApplication.java  
 $ ./java.sh MazeApplication
+```
+In Windows use
+```
+$ javac src/MazeApplication.java  
+$ java MazeApplication
 ```
 to execute the application.
 
@@ -17,3 +23,7 @@ to execute the application.
 |x        |exit      |only 1              |
 |*        |wall      |as many as necessary|
 |.        |path      |as many as necessary|
+
+Store in txt file, and remember its path to use it in the application
+
+
